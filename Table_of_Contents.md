@@ -3,8 +3,9 @@
 ## Table of Contents
 
 ### Basic Routines
-1. [Machine Epsilon](./MacEps.md)
-2. [Double Machine Epsilon](./DMacEps.md)
+1. [Machine Epsilon](./maceps.md)
+2. [Absolute Error](./abs_err.md)
+3. [Relative Error](./rel_err.md)
 
 ### Elliptic Problems
 
