@@ -36,6 +36,6 @@ int main(){
 "The machine epsilon for double precision number systems is 1.11022e-16"
 ```
 
-**Last Modification Date:** Jan. 11, 2017
+**Last Modification Date:** Jan. 11, 2018
 
 
