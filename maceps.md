@@ -15,19 +15,19 @@
 **Code:** 
 ```C++
 void DMacEps(){
-double y=1.0;
-double y0=1.0;
-while((y+y0) != 1){
-y=y/2;
-}
-cout << "The machine epsilon for double precision number systems is " << y << endl;
+    double y=1.0;
+    double y0=1.0;
+    while((y+y0) != 1){
+        y=y/2;
+    }
+    cout << "The machine epsilon for double precision number systems is " << y << endl;
 }
 ```
 
 **Example:**
 ```C++
 int main(){
-DMacEps();
+    DMacEps();
 }
 ```
 
