@@ -8,7 +8,7 @@
 
 **Description:** This routine takes the constants and initial condition as input and produces the value of the solution at a given point. This routine will be useful for testing numerical methods. 
 
-**Input:** Inputs will be the constants of the differential equation, m, c, and k. Then the initial values, p0 and v0 can be used to calculate c1 and c2 using the equations c1 + c2 + u1 + u2 = p0 and r1c1 + r2c2 + r1u1 + u1'e^r1t + u2'e^r2t = v0. Where u1 = - integral from 0 to t of (e^r2s*f(s))/((r2-r1)e^(r1+r2)s)ds and  u2 = integral from 0 to t of (e^r1s*f(s))/((r2-r1)e^(r1+r2)s)ds. The arbitrary point t we want to evaluate y at is also passed in. 
+**Input:** Inputs will be the constants of the differential equation, m, c, and k. Then the initial values, p0 and v0 can be used to calculate c1 and c2 using the equations c1 + c2 + u1 + u2 = p0 and r1c1 + r2c2 + r1u1 + u1'e^r1t + u2'e^r2t = v0. Where u1 = - integral from 0 to t of (e^r2sf(s))/((r2-r1)e^(r1+r2)s)ds and  u2 = integral from 0 to t of (e^r1sf(s))/((r2-r1)e^(r1+r2)s)ds. The arbitrary point t we want to evaluate y at is also passed in. 
 
 **Output:** The routine will produce an approximate answer for y(t).
 
