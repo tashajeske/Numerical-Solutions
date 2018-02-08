@@ -50,15 +50,41 @@ double func(string f, double x){
 }
 
 int main(){
-Printm(init ("f1", 0, 1, 2.5, 5.0, 5));
+Vec comp_ans7 = strip(init("f1", 0, 1, 2.5, 5.0, 5));
+cout << endl;
+Print(comp_ans7);
+Vec hand_ans7 (4);
+for (int i=1; i<5; i++){
+hand_ans7[i-1]=2.5+2.5*(i*.2)-sin(3.1415926535*(i*.2))/pow(3.1415926535,2);
+}
+cout << endl;
+Print(hand_ans7);
+cout << endl;
+cout << Verror1(comp_ans7, hand_ans7) << endl;
+cout << Verror2(comp_ans7, hand_ans7) << endl;
+cout << VerrorInf(comp_ans7, hand_ans7) << endl;
+
 ```
 
 **Results:** 
 ```C++
-1  1  1  1  
--2  -2  -2  -2  
-1  1  1  1  
--2.47649  0.0380423  0.0380423  -4.96196  
+1.537e-06
+
+2.93554
+3.39459
+3.89169
+4.42682
+
+
+2.94044
+3.40364
+3.90364
+4.44044
+
+
+0.0395264
+0.0208408
+0.0136233 
 ```
 
 **Last Modification Date:** Feb. 7, 2018
