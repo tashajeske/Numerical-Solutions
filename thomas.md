@@ -15,6 +15,8 @@
 **Code:** 
 ```C++
 Vec thomas(Vec subdiag, Vec maindiag, Vec supdiag, Vec b){
+    chrono::duration<double> time1;
+    auto start = chrono::high_resolution_clock::now();
     for (int i=0; i < subdiag.size(); i++){
         double lik=subdiag[i]/maindiag[i];
         maindiag[i+1]=maindiag[i+1]-lik*supdiag[i];
@@ -28,6 +30,9 @@ Vec thomas(Vec subdiag, Vec maindiag, Vec supdiag, Vec b){
     for (int i=0; i < maindiag.size(); i++){
         x.push_back(b[i]/maindiag[i]);
     }
+    auto end=chrono::high_resolution_clock::now();
+    time1=end-start;
+    cout<<time1.count()<<endl;
     return x;
 }
 
@@ -53,6 +58,7 @@ int main(){
 
 **Results:** 
 ```C++
+3.185e-06
 1
 1
 1
