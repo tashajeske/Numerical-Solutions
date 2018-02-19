@@ -1,4 +1,4 @@
-# Computational Mathematics Software Manual
+# Numerical Solutions Software Manual
 
 ## **Routine Name:** lusolve
 
