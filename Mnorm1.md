@@ -14,24 +14,31 @@
 
 **Code:**
 ```C++
-double Mnorm1 (vector<vector<double>> matrix){
-double norm=0.0;
-for (int i=0; i<matrix.size(); i++){
-double sum=0.0;
-for (int j=0; j< matrix[i].size(); j++){
-sum+=abs(matrix[j][i]);
-}
-if (sum > norm) norm = sum;
-}
-return norm;
+double Mnorm1 (Matrix matrix){
+    double norm=0.0;
+    for (int i=0; i<matrix.size(); i++){
+        double sum=0.0;
+        for (int j=0; j< matrix[i].size(); j++){
+            sum+=abs(matrix[j][i]);
+        }
+        if (sum > norm) norm = sum;
+    }
+    return norm;
 }
 ```
 
 **Example:**
 ```C++
+# include <iostream>
+# include <vector>
+# include <cmath>
+using namespace std;
+typedef vector <vector <double>> Matrix;
+typedef vector <double> Vec;
+
 int main(){
-vector < vector < double >> matrix1 = {{-5,2,1},{1,2, -9}, {0, -4, 12}};
-cout << Mnorm1(matrix1) << endl;
+    Matrix matrix1 = {{-5,2,1},{1,2, -9}, {0, -4, 12}};
+    cout << Mnorm1(matrix1) << endl;
 }
 ```
 
