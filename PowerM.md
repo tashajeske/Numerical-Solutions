@@ -80,7 +80,8 @@ double dotprod(Vec vec1, Vec vec2){
 typedef vector <vector <double>> Matrix;
 typedef vector <double> Vec;
 
-int main(){    
+int main(){
+    // testing power method on hilbert matrix
     int n=1000;
     Matrix Hilbert (n, Vec(n));
     for (int i=0; i<n; i++){
@@ -90,12 +91,23 @@ int main(){
     }
     Vec v0 (n,1);
     powerM(Hilbert, v0, .01, 100);
+
+    // testing power method on finite difference matrix
+    Matrix fDiff(n, Vec(n,0));
+    for (int i=0; i<n-1; i++){
+        fDiff[i][i]=2;
+        fDiff[i][i+1]=-1;
+        fDiff[i+1][i]=-1;
+    }
+    fDiff[n-1][n-1]=2;
+    powerM(fDiff, v0, .01, 100);
 }
 ```
 
 **Results:**  
 ```
-0.106744
+0.107025
+0.276425
 ```
 
 **Last Modification Date:** Feb. 19, 2017
