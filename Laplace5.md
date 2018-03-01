@@ -43,7 +43,7 @@ struct point{
     double y;
 };
 
-vector <vector <point>> comMesh (int alpha, int a, int b){
+vector <vector <point>> comMesh (double alpha, int a, int b){
     vector <vector <point>> Mesh (alpha, vector<point> (alpha));
     double h = (b-a)/alpha;
     for (int i=1; i< alpha; i++){
@@ -118,9 +118,9 @@ Initialized Matrix:
 0  0  0  0  1  0  1  -4  1  
 0  0  0  0  0  1  0  1  -4  
 Initialized b: 
-0  0  0  0  0  0  0  0  0  
+0.0399893  0.159318  0.352274  0.0399893  0.159318  0.352274  0.0399893  0.159318  0.352274  
 Solution: 
-8.01331e-25  -8.39187e-18  8.01331e-25  -8.39187e-18  -2.77556e-17  -8.39187e-18  8.01331e-25  -8.39187e-18  8.01331e-25  
+-0.0721729  -0.153209  -0.183703  -0.0954937  -0.19764  -0.22933  -0.0721729  -0.153209  -0.183703  
 ```
 
 **Last Modification Date:** Feb. 26, 2018
