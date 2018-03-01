@@ -106,8 +106,8 @@ int main(){
 
 **Results:**  
 ```
+1.563011
 3.963247
-0.276425
 ```
 
 **Last Modification Date:** Feb. 19, 2017
