@@ -40,7 +40,7 @@ int main(){
 
 **Results:**  
 ```
-The approximate value of y at x0 = 5.01093
+The approximate value of y at x = 0 is 5.01093
 ```
 
 **Last Modification Date:** March 19, 2018
