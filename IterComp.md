@@ -12,6 +12,8 @@ Size of matrix | Gauss-Seidel | Jacobi | Conjugate Gradient
 169 x 169 | 29 | 51 | 14 
 576 x 576 | 31 | 55 | 14 
 
+Conjugate Gradient is the fastest method of convergence for the Laplace equation for all sizes my computer could handle. Gauss-Seidel was the next fastest method, and Jacobi had the largest number of iterations to convergence. 
+
 
 ### Code:
 ```
