@@ -1,6 +1,6 @@
 # Numerical Solutions Software Manual
 
-## **Routine Name:** Laplace5
+## **Routine Name:** CGLaplace5
 
 **Author:** Nitasha Jeske
 
@@ -14,7 +14,7 @@
 
 **Code:** 
 ```C++
-void Laplace5 (int alpha, int a, int b){
+void CGLaplace5 (int alpha, int a, int b){
     auto Mesh = comMesh(alpha, a, b);
     Matrix Lap = LapMat9(alpha);
     cout << "Initialized Matrix: " << endl;
@@ -55,7 +55,7 @@ vector <vector <point>> comMesh (double alpha, int a, int b){
     return Mesh;
 }
 
-Matrix LapMat5 (int alpha){
+Matrix CGLapMat5 (int alpha){
     int size= pow(alpha-2, 2);
     Matrix Lap (size, Vec(size, 0));
     for (int i=0; i<size; i++){
@@ -101,7 +101,7 @@ void Print (Vec v){
 }
 
 int main(){
-    Laplace5(5,0,1);
+    CGLaplace5(5,0,1);
 }
 ```
 
