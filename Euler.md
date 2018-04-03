@@ -6,7 +6,7 @@
 
 **Language:** C++
 
-**Description:** Euler's method is a way to approximate the value of y in a first order differential equation using a form of numerical integration. If the initial value of the curve is given, an unkown value on the curve can be estimated using Euler's.
+**Description:** Explicit Euler's method is a way to approximate the value of y in a first order differential equation using a form of numerical integration. If the initial value of the curve is given, an unkown value on the curve can be estimated using Euler's.
 
 **Input:**  The function takes the initial value (x0, y0), the value x you want to find, delta T, the string f corresponding to the dy/dx function, the tolerance, and maximum number of iterations. 
 
