@@ -51,7 +51,7 @@
 2. [Random K Ordinary Differential Equation](./randk_ode.md)
 3. [Spring Mass Equation](./spring_de.md)
 4. [Logistic Population Growth Initial Value Problem](./logPop.md)
-5. [Simple 1st order Initial Value Problem](./order.md)
+5. [Simple 1st order Initial Value Problem](./order1.md)
 
 ### Appendix
 
