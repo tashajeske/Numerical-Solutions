@@ -1,6 +1,6 @@
 # Numerical Solutions Software Manual
 
-## **Routine Name:** RungeKutta4
+## **Routine Name:** AdamBashMoul3
 
 **Author:** Nitasha Jeske
 
