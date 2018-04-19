@@ -27,15 +27,20 @@
 1. [Power Method](./PowerM.md)
 2. [Inverse Power Method](./invPowerM.md)
 
-### Solve Ordinary Differential Equations
+### Elliptic Problems
 1. [Finite Difference Coefficients](./fdCoeff.md)
 2. [Initialize Elliptic ODE](./init.md)
-3. [Explicit Euler](./Euler.md)
+3. [5 point Laplace](./Laplace5.md)
+4. [9 point Laplace](./Laplace9.md)
+5. [Laplace Equation using Conjugate Gradient](./CGLaplace5.md)
 
-### Elliptic Problems
-1. [5 point Laplace](./Laplace5.md)
-2. [9 point Laplace](./Laplace9.md)
-3. [Laplace Equation using Conjugate Gradient](./CGLaplace5.md)
+### First Order Initial Value Problems
+1. [Explicit Euler](./Euler.md)
+2. [Implicit Euler](./impEuler.md)
+3. [Runge Kutta Order 2](./RungeKutta2.md)
+4. [Runge Kutta Order 4](./RungeKutta4.md)
+5. [Predictor Corrector Method](./AdamBashMoul3.md)
+
 
 ### Parabolic Problems
 
@@ -45,5 +50,11 @@
 1. [Log Differential Equation](./log_de.md)
 2. [Random K Ordinary Differential Equation](./randk_ode.md)
 3. [Spring Mass Equation](./spring_de.md)
+4. [Logistic Population Growth Initial Value Problem](./logPop.md)
+5. [Simple 1st order Initial Value Problem](./order.md)
 
 ### Appendix
+
+### Homework Write Ups
+1. [Homework 5: Problem 6](./hw5writeup.md)
+2. [Homework 6](./Homework6.md)
