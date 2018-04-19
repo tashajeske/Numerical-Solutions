@@ -48,7 +48,7 @@ Problem 2: Implicit Euler
 -0.420292
 -0.833246
 ```
-Implicit Euler is more accurate than Explicit Euler for these specific problems. Explicit Euler provides an approximation to Example 7.3 that has an error of magnitude 10^77. While Implicit is still providing an approximation roughly twice the true value, it is much more accurate than Explicit Euler's method. These example problems show that Implicit Euler's method has a higher accuracy and is more robust. 
+Implicit Euler is more accurate than Explicit Euler for these specific problems. Explicit Euler provides an approximation to Example 7.3 that has an error of magnitude 10^77. While Implicit is still providing an approximation roughly twice the true value, it is much more accurate than Explicit Euler's method. These example problems show that Implicit Euler's method has a higher accuracy and is more robust/stable. 
 
 
 ### Problem 3: 
@@ -135,5 +135,4 @@ Problem 5: Runge Kutta 4
 -0.416147
 -0.416147
 ```
-The Runge Kutta order 4 method is the most accurate for all three examples. This problem is stable enough to provide an accurate approximation to example 7.3 unlike the other methods. This is also a fast method to run. It is a fairly simple algebraic calculation for the computer, so the complexity of the code is low. Explicit Euler's has the shortest calculation time, followed by Runge Kutta, and then the predictor corrector method. Lastly is Implicit Euler's method which calls the newton method of approximating roots. For the accuracy Runge Kutta order 4 provides it is certainly worth the minimal difference in the time it takes to compile versus the Explicit Euler method.ß
-
+The Runge Kutta order 4 method is the most accurate for all three examples. This problem is stable enough to provide an accurate approximation to example 7.3 unlike the other methods. This is also a fast method to run. It is a fairly simple algebraic calculation for the computer, so the complexity of the code is low. Explicit Euler's has the shortest calculation time, followed by Runge Kutta, and then the predictor corrector method. Lastly is Implicit Euler's method which calls the newton method of approximating roots. For the accuracy Runge Kutta order 4 provides it is certainly worth the minimal difference in the time it takes to compile versus the Explicit Euler method.
