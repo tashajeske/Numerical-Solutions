@@ -15,12 +15,12 @@
 **Code:** 
 ```C++
 void randk_ode(double a, double b, int m, int n){
-int size = 2*floor((m+1)/2)-1+n;
-Vec k(size);
-for ( int i=0; i< size; i++){
-k[i]=rand()%41 + 10;
-}
-Vec coeffs = fdCoeff(m,n);
+    int size = 2*floor((m+1)/2)-1+n;
+    Vec k(size);
+    for ( int i=0; i< size; i++){
+        k[i]=rand()%41 + 10;
+    }
+    Vec coeffs = fdCoeff(m,n);
 }
 
 ```
@@ -36,7 +36,7 @@ typedef vector <vector <double>> Matrix;
 typedef vector <double> Vec;
 
 int main(){
-Print(rand_ode(0,1,2,1);
+    Print(rand_ode(0,1,2,1);
 ```
 
 **Results:** 
