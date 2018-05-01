@@ -41,10 +41,14 @@
 4. [Runge Kutta Order 4](./RungeKutta4.md)
 5. [Predictor Corrector Method](./AdamBashMoul3.md)
 
-
 ### Parabolic Problems
+1. [Explicit Euler](./hEuler.md)
+2. [Implicit Euler](./himpEuler.md)
+3. [Runge Kutta Order 4](./hRungeKutta4.md)
+4. [Predictor Corrector Method](./hAdamBashMoul3.md)
 
 ### Hyperbolic Problems
+1. 
 
 ### Test Problems
 1. [Log Differential Equation](./log_de.md)
@@ -54,7 +58,7 @@
 5. [Simple 1st order Initial Value Problem](./order1.md)
 
 ### Appendix
-
-### Homework Write Ups
 1. [Homework 5: Problem 6](./hw5writeup.md)
 2. [Homework 6](./Homework6.md)
+3. [Homework 7](./Homework7.md)
+4. [Homework 8](./Homework8.md)
