@@ -1,1 +1,1 @@
-![kevin](https://github.com/tashajeske/Numerical-Solutions/blob/master/KEVIN%20BABY.jpg)
+![photo name if you want one](photo link from github)

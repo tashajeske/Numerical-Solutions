@@ -48,7 +48,9 @@
 4. [Predictor Corrector Method](./hAdamBashMoul3.md)
 
 ### Hyperbolic Problems
-1. 
+1. [Upwinding](./upwinding.md)
+2. [Lax-Wendorff](./laxwend.md)
+3. [Warming and Beam](./warmbeam.md)
 
 ### Test Problems
 1. [Log Differential Equation](./log_de.md)
