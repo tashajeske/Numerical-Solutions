@@ -52,7 +52,7 @@
 2. [Lax-Wendorff](./laxwend.md)
 3. [Warming and Beam](./warmbeam.md)
 
-### Test Problems
+### Test Problems 
 1. [Log Differential Equation](./log_de.md)
 2. [Random K Ordinary Differential Equation](./randk_ode.md)
 3. [Spring Mass Equation](./spring_de.md)
