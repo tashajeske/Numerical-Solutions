@@ -42,10 +42,10 @@
 5. [Predictor Corrector Method](./AdamBashMoul3.md)
 
 ### Parabolic Problems
-1. [Explicit Euler](./hEuler.md)
-2. [Implicit Euler](./himpEuler.md)
-3. [Runge Kutta Order 4](./hRungeKutta4.md)
-4. [Predictor Corrector Method](./hAdamBashMoul3.md)
+1. [Explicit Euler for Heat equation](./hEuler.md)
+2. [Implicit Euler for Heat equation](./himpEuler.md)
+3. [Runge Kutta Order 4 for Heat Equation](./hRungeKutta4.md)
+4. [Predictor Corrector Method for Heat Equation](./hAdamBashMoul3.md)
 
 ### Hyperbolic Problems
 1. [Upwinding](./upwinding.md)
@@ -62,5 +62,4 @@
 ### Appendix
 1. [Homework 5: Problem 6](./hw5writeup.md)
 2. [Homework 6](./Homework6.md)
-3. [Homework 7](./Homework7.md)
-4. [Homework 8](./Homework8.md)
+
